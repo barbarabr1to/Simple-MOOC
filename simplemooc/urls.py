@@ -1,3 +1,8 @@
+""" 
+ESSE MÓDULO DEFINE AS URL's, OU SEJA, ATRAVÉS DA DEFINIÇÃO DE UMA EXPRESSÃO REGULAR, 
+A MESMA VAI INDICAR QUAL FUNÇÃO DEVE SER EXECUTADA APÓS AQUELA URL SER ACESSADA  
+"""
+
 """simplemooc URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -14,8 +19,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('core/', include('core.urls'))
 ]
+
+
