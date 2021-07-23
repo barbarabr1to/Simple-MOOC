@@ -1,8 +1,3 @@
-""" 
-ESSE MÓDULO DEFINE AS URL's, OU SEJA, ATRAVÉS DA DEFINIÇÃO DE UMA EXPRESSÃO REGULAR, 
-A MESMA VAI INDICAR QUAL FUNÇÃO DEVE SER EXECUTADA APÓS AQUELA URL SER ACESSADA  
-"""
-
 """simplemooc URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
